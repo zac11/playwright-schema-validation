@@ -33,6 +33,7 @@ You need to create your own schema and then match it against your data. You can 
 https://stefanterdell.github.io/json-schema-to-zod-react/
 
 For this test, the `zod` schema is at `./schemaFiles/zodSchema.ts`
+
 To run the tests for validating the response run `npx playwright test jsonvalidation_w_zod.spec.ts`
 
 
@@ -40,6 +41,7 @@ To run the tests for validating the response run `npx playwright test jsonvalida
 ## Schema Validation using JOI
 `joi` is one of the older but still fantastic library for parsing and validating the JSON Schema against the response data.
 For our tests, we have created a `joi` schema at `./schemaFiles/joiSchema.ts`
+
 To run the tests for validating the response run `npx playwright test jsonvalidation_w_joi.spec.ts`
 
 
