@@ -51,3 +51,4 @@ To run the tests for validating the response run `npx playwright test jsonvalida
 - https://github.com/StefanTerdell/json-schema-to-zod
 - https://softchris.github.io/pages/joi.html#building-a-middleware
 - https://www.bacancytechnology.com/blog/joi-validation-in-nodejs-and-express
+- https://elaichenkov.medium.com/api-testing-with-playwright-odottaa-77451917342f
