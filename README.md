@@ -44,6 +44,10 @@ For our tests, we have created a `joi` schema at `./schemaFiles/joiSchema.ts`
 
 To run the tests for validating the response run `npx playwright test jsonvalidation_w_joi.spec.ts`
 
+## Run all tests
+
+Just run `npx playwright test` to run all tests.
+
 
 ## Useful Links for reading
 - https://zod.dev/?id=api-libraries
