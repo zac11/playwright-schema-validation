@@ -1,0 +1,23 @@
+{
+  "name": "playwright-schema-validation",
+  "version": "1.0.0",
+  "description": "Demonstrate how to use JSON Schema validation with Playwright",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@playwright/test": "^1.36.1",
+    "rimraf": "^5.0.1",
+    "zod": "^3.21.4"
+  },
+  "dependencies": {
+    "@types/hapi__joi": "^17.1.9",
+    "ajv": "^6.12.6",
+    "fs": "^0.0.1-security",
+    "joi": "^17.9.2",
+    "luxon": "^3.3.0"
+  }
+}
